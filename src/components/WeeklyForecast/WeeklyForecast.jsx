@@ -6,10 +6,10 @@ import {
     BsCloudLightning,
     BsCloudRain,
 } from 'react-icons/bs';
-
-import Chart from './Chart';
-import './weeklyForecast.scss';
 import { checkPropTypes } from 'prop-types';
+
+import Chart from '../Chart/Chart';
+import './weeklyForecast.scss';
 
 const data = [
     {

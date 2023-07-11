@@ -18,6 +18,9 @@ nav {
             border: 1px solid lightgray;
             background-color: white;
             position: relative;
+            @media screen and (max-width: 500px) {
+                width: 200px;
+            }
             input {
                 width: 100%;
                 border: none;
@@ -55,6 +58,9 @@ nav {
             font-size: 1.8rem;
             cursor: pointer;
             color: cornflowerblue;
+            @media screen and (max-width: 500px) {
+                display: none;
+            }
         }
     }
 }

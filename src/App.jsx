@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 
-import Navbar from './components/Navbar';
-import TodayWeather from './components/TodayWeather';
-import ForecastWrapper from './components/ForecastWrapper';
+import Navbar from './components/Navbar/Navbar';
+import TodayWeather from './components/TodayForecast/TodayWeather';
+import ForecastWrapper from './components/ForecastWrapper/ForecastWrapper';
 import './app.scss';
 
 const API_URL = import.meta.env.VITE_REACT_APP_API_URL;

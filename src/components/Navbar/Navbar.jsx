@@ -6,7 +6,7 @@ import { checkPropTypes } from 'prop-types';
 
 const Navbar = ({ onSearch, cityWeather, onClick }) => {
     const [city, setCity] = useState('');
-    const [isListOpen, setListOpen] = useState(false);
+    // const [isListOpen, setListOpen] = useState(false);
 
     const handleSearch = (e) => {
         e.preventDefault();

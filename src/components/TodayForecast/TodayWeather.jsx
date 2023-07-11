@@ -81,14 +81,7 @@ const TodayWeather = ({ data }) => {
                         </div>
                     </div>
                     <div className='time'>
-                        <h2>
-                            {/* {time.toLocaleTimeString('en-US', {
-                                hour: 'numeric',
-                                minute: '2-digit',
-                                hour12: true,
-                            })} */}
-                            {time}
-                        </h2>
+                        <h2>{time}</h2>
                         <p>
                             {currentTime}, {currentDay}
                         </p>

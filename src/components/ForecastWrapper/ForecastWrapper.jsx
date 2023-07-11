@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Humidity from './Humidity';
-import Rainfall from './Rainfall';
-import WeeklyForecast from './WeeklyForecast';
+import Humidity from '../Details/Humidity';
+import Rainfall from '../Rainfall/Rainfall';
+import WeeklyForecast from '../WeeklyForecast/WeeklyForecast';
 
 import './forecastWrapper.scss';
 import { checkPropTypes } from 'prop-types';
@@ -11,7 +11,7 @@ const ForecastWrapper = ({ data, dataWeather }) => {
     return (
         <div className='forecast'>
             <div className='forecast__wrapper'>
-                <div className='forecast__humidiy'>
+                <div className='forecast__humidity'>
                     <Humidity data={data} />
                 </div>
                 <div className='forecast__rainfall'>
