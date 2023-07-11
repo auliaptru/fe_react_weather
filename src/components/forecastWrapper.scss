@@ -1,0 +1,13 @@
+.forecast {
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+    width: 100%;
+    .forecast__wrapper {
+        flex: 1;
+    }
+    .forecast__weekly {
+        flex: 2;
+        margin-left: 80px;
+    }
+}
